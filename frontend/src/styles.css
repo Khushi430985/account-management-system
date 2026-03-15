@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Card layout for forms */
+.container {
+  width: 400px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Default buttons */
+button{
+  display:block;
+  margin:15px auto;
+  padding:10px 20px;
+  border:none;
+  border-radius:5px;
+  background:#4CAF50;
+  color:white;
+  cursor:pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+.dashboard-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.dashboard-buttons a{
+  text-decoration: none;
+}
+.dashboard-buttons button {
+  width: auto;
+  padding: 10px 20px;
+}
+
+/* Table styling */
+table {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background: #f2f2f2;
+}

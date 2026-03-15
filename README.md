@@ -41,17 +41,15 @@ A Full Stack Account Management System built using:
 - Transaction History (Account Statement)
 - Debit / Credit color coding
 
-## Tech Stack
-
-Frontend: React + Vite  
-Backend: Node.js + Express  
-Database: Supabase PostgreSQL  
 
 ## Project Structure
 account-management-system
 │
-├── frontend (React app)
-└── backend (Node + Express API)
+├── frontend
+│   └── React application
+│
+└── backend
+    └── Node + Express API
 
 
 ## Setup
@@ -59,16 +57,18 @@ account-management-system
 ### Backend
 
 cd backend
-npm install
-npm run dev
+
+- npm install
+- npm run dev
 
 
 ### Frontend
 
 
 cd frontend
-npm install
-npm run dev
+
+- npm install
+- npm run dev
 
 
 ## Demo Accounts

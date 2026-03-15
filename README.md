@@ -43,6 +43,7 @@ A Full Stack Account Management System built using:
 
 
 ## Project Structure
+```
 account-management-system
 │
 ├── frontend
@@ -51,7 +52,7 @@ account-management-system
 └── backend
     └── Node + Express API
 
-
+```
 ## Setup
 
 ### Backend
